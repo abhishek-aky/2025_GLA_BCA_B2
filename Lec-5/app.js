@@ -1,21 +1,20 @@
 let count = 0;
-// function updateUI(){
+function updateUI(){
+    document.getElementById('count').innerHTML = count;
+}
     
 function increment(){
     count++;
-    // updateUI();
-    document.getElementById('root').innertext = count;
+    updateUI();
+    
 }
 
 function decrement(){
     count--;
-    // updateUI();
-    document.getElementById('root').innertext = count;
-
+    updateUI();
 }
 
 function rest(){
     count = 0;
-    document.getElementById('root').innertext = count;
-    // updateUI();
+    updateUI();
 }
