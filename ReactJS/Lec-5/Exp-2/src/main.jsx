@@ -8,7 +8,10 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* <App /> */}
     <GitHub usernaam="variskhan7"/>
-    <GitHub usernaam= "shivamtyagi295"/>
+    <GitHub usernaam= "rakhi-rs"/>
     <GitHub usernaam="abhishek-aky"/>
+    <GitHub usernaam = "akshat03-cyber"/>
+    <GitHub  usernaam = "shradha-khapra"/>
+    {/* <GitHub usernaam="the_nitin_chaudhary_"/> */}
   </StrictMode>,
 )

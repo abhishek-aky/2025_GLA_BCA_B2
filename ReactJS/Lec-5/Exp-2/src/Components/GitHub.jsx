@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-
 function GitHub({usernaam}) {
   let [users, setUsers]  =  useState({imgUrl:"", followers:0, following:0, bio:""});
     useEffect(()=>{

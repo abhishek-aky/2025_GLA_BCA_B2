@@ -9,19 +9,13 @@ function Hello() {///js
             Email : ${Email}`);
         
     }
-    
-   
-
-
-
   return (//html
-
     <div>
       <form onSubmit={handle}>
         <fieldset>
             <legend>Log in Page</legend>
             <input type="text" placeholder='Enter Name' onChange={(event)=>setname(event.target.value)}/>
-            &hearts; &gt; &lt; &nbsp;
+            
             <input type="email" placeholder='Enter Email' onChange={(event)=>setEmail(event.target.value)} />
             <br />
             <button type='Submit'>Submit</button>
@@ -32,8 +26,10 @@ function Hello() {///js
       </form>
 
       <strong>All rights reserved to &copy; 2026</strong>
+        <hr />
+      <strong> &lt; &hearts; &gt;  &nbsp;</strong>
     </div>
   )
 }
 
-export default Hello
+export default Hello;
